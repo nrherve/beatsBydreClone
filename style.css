@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* ______________________
+Navigation bar
+_______________________ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20em;
+    padding: 10px 20px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.search{
+    display: flex;
+    gap: 15px;
+    
+}
+.searchItem{
+    width: 25px;
+    height: 25px;
+    flex: 1;
+}
+/* ------------------------------------------
+Hero section
+------------------------------------------ */
+.hero{
+    display: grid;
+    place-items: center;
+}
+.hero img,
+.hero-content{
+    grid-area: 1/1;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-content{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 1;
+    color:#ffff;
+}
