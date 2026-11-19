@@ -109,6 +109,7 @@ ABOUT SECTION
     display: flex;
     flex-direction: column;
     background-color: #ffff;
+    border-radius: 16px;
 }
 .about h1{
     grid-area: header;
