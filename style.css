@@ -1,0 +1,38 @@
+/* ______________________
+Navigation bar
+_______________________ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20em;
+    padding: 10px 20px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.search{
+    display: flex;
+    gap: 15px;
+    
+}
+.searchItem{
+    width: 25px;
+    height: 25px;
+    flex: 1;
+}
+/* ------------------------------------------
+Hero section
+------------------------------------------ */
+.hero{
+    display: grid;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
